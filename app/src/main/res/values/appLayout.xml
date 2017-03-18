@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!--Team Information-->
+
+        <!--Team Name-->
+        <string name="appTeamName">Delta Robotics</string>
+    
+        <!--Team Number-->
+        <string name="appTeamNumber">9925</string>
+
+        <!--Team E-Mail-->
+        <bool name="appTeamHasEMail">true</bool>
+        <string name="appTeamEmail">DeltaRoboticsFTC@gmail.com</string>
+
+        <!--Team Website-->
+        <bool name="appTeamHasWebsite">true</bool>
+        <string name="appTeamWebsite">DeltaRoboticsFTC.org</string>
+
+    <!--App Looks-->
+
+        <!--App Name-->
+        <string name="appAppName">FTC Scouting</string>
+
+        <!--Game Name-->
+        <string name="appGameName">Game Name</string>
+    
+        <!--Banner Text-->
+        <string name="appBottomBannerText">Built By Delta Robotics</string>
+
+        <!--Layout Colors-->
+        <color name="appColorPrimary">#3F51B5</color>
+        <color name="appColorPrimaryDark">#303F9F</color>
+        <color name="appColorAccent">#FF4081</color>
+
+        <!--Text-->
+
+            <!--Title-->
+            <color name="appTextTitleColor">#000000</color>
+            <dimen name="appTextTitleSize">40sp</dimen>
+
+            <!--SubTitle-->
+            <color name="appTextSubTitleColor">#000000</color>
+            <dimen name="appTextSubTitleSize">20sp</dimen>
+
+            <!--Content-->
+            <color name="appTextContentColor">#000000</color>
+            <dimen name="appTextContentSize">15sp</dimen>
+
+        <!--App Match Layout-->
+        <string name="appMatchSections">Auto</string>
+
+</resources>

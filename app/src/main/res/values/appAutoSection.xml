@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Auto Layout-->
+    <string name="appAutoSectionContent">Test</string>
+
+    <!--Counter Test-->
+    <string name="appTestType">Counter</string>
+    <string name="appTestTitle">This is a test counter!!</string>
+
+    <integer name="appTestStartValue">0</integer>
+    <integer name="appTestModifier">2</integer>
+
+    <bool name="appTextHasMax">true</bool>
+    <integer name="appTestMax">10</integer>
+
+    <bool name="appTextHasMin">true</bool>
+    <integer name="appTestMin">-5</integer>
+
+
+</resources>
