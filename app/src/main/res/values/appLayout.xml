@@ -17,10 +17,15 @@
         <bool name="appTeamHasWebsite">true</bool>
         <string name="appTeamWebsite">DeltaRoboticsFTC.org</string>
 
+        <!--Team Logo-->
+            <!--Image MUST be 100px in height, otherwise app will lag.-->
+            <!--Name MUST be all lowercase, otherwise app will crash.-->
+        <drawable name="appTeamLogo">@drawable/delta_logo</drawable>
+
     <!--App Looks-->
 
         <!--App Name-->
-        <string name="appAppName">FTC Scouting</string>
+        <string name="appAppName">FTC Scouting Dev</string>
 
         <!--Game Name-->
         <string name="appGameName">Game Name</string>
@@ -29,23 +34,36 @@
         <string name="appBottomBannerText">Built By Delta Robotics</string>
 
         <!--Layout Colors-->
-        <color name="appColorPrimary">#3F51B5</color>
-        <color name="appColorPrimaryDark">#303F9F</color>
-        <color name="appColorAccent">#FF4081</color>
+        <color name="appColorPrimary">#e26405</color>
+        <color name="appColorPrimaryDark">#cd5607</color>
+        <color name="appColorAccent">#b74605</color>
+
+        <!--Menu Colors-->
+        <color name="appColorMenuStart">#fac22e</color>
+        <color name="appColorMenuCenter">#ed8314</color>
+        <color name="appColorMenuEnd">#e26405</color>
+
+        <!--Menu Text-->
+        <string name="appStringMenuLine1">DeltaRoboticsFTC.org</string>
+        <string name="appStringMenuLine2">DeltaRoboticsFTC@gmail.com</string>
 
         <!--Text-->
 
             <!--Title-->
             <color name="appTextTitleColor">#000000</color>
-            <dimen name="appTextTitleSize">40sp</dimen>
+            <dimen name="appTextTitleSize">37sp</dimen>
 
             <!--SubTitle-->
             <color name="appTextSubTitleColor">#000000</color>
-            <dimen name="appTextSubTitleSize">20sp</dimen>
+            <dimen name="appTextSubTitleSize">22sp</dimen>
 
             <!--Content-->
-            <color name="appTextContentColor">#000000</color>
-            <dimen name="appTextContentSize">15sp</dimen>
+            <color name="appTextContentColor">#828282</color>
+            <dimen name="appTextContentSize">18sp</dimen>
+
+            <!--Button-->
+            <color name="appTextButtonColor">#000000</color>
+            <dimen name="appTextButtonSize">20sp</dimen>
 
         <!--App Match Layout-->
         <string name="appMatchSections">Auto</string>

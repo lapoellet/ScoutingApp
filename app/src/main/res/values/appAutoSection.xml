@@ -2,20 +2,34 @@
 <resources>
 
     <!--Auto Layout-->
-    <string name="appAutoSectionContent">Test</string>
+        <string name="appAutoSectionContent">Test,Test2</string>
+        <string name="appAutoSectionTitle">AutoTest</string><!--Default = "Section Reference"-->
 
     <!--Counter Test-->
-    <string name="appTestType">Counter</string>
-    <string name="appTestTitle">This is a test counter!!</string>
+        <string name="appTestType">Counter</string>
 
-    <integer name="appTestStartValue">0</integer>
-    <integer name="appTestModifier">2</integer>
+        <string name="appTestTitle">Counter1</string>
 
-    <bool name="appTextHasMax">true</bool>
-    <integer name="appTestMax">10</integer>
+        <integer name="appTestStartValue">0</integer><!--Default = 0-->
+        <integer name="appTestModifier">1</integer><!--Default = 1-->
 
-    <bool name="appTextHasMin">true</bool>
-    <integer name="appTestMin">-5</integer>
+        <bool name="appTestHasMax">false</bool><!--Default = false-->
+        <integer name="appTestMax">10</integer><!--Not required if app___HasMax = false--><!--Default = 99-->
 
+        <bool name="appTestHasMin">true</bool><!--Default = false-->
+        <integer name="appTestMin">0</integer><!--Not required if app___HasMin = false--><!--Default = -99-->
+
+
+    <!--Counter Test2-->
+        <string name="appTest2Type">RadioSet</string>
+
+        <string name="appTest2Title">RadioGroup1</string>
+
+        <integer name="appTest2NumberOfSelections">3</integer>
+        <integer name="appTest2StartSelection">2</integer>
+
+        <string name="appTest2SelectionText_1">Button 1</string>
+        <string name="appTest2SelectionText_2">Button 2</string>
+        <string name="appTest2SelectionText_3">Button 3</string>
 
 </resources>

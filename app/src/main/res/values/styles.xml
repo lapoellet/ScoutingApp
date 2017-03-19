@@ -1,8 +1,6 @@
 <resources>
 
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/appColorPrimary</item>
         <item name="colorPrimaryDark">@color/appColorPrimaryDark</item>
         <item name="colorAccent">@color/appColorAccent</item>
@@ -16,5 +14,25 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="appStyleTitle">
+        <item name="android:textColor">@color/appTextTitleColor</item>
+        <item name="android:textSize">@dimen/appTextTitleSize</item>
+    </style>
+
+    <style name="appStyleSubTitle">
+        <item name="android:textColor">@color/appTextSubTitleColor</item>
+        <item name="android:textSize">@dimen/appTextSubTitleSize</item>
+    </style>
+
+    <style name="appStyleContent">
+        <item name="android:textColor">@color/appTextContentColor</item>
+        <item name="android:textSize">@dimen/appTextContentSize</item>
+    </style>
+
+    <style name="appStyleButton">
+        <item name="android:textColor">@color/appTextButtonColor</item>
+        <item name="android:textSize">@dimen/appTextButtonSize</item>
+    </style>
 
 </resources>
